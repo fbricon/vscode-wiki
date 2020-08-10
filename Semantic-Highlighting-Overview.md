@@ -78,7 +78,7 @@ This rule colors all token of type `variable` and contain modifier `readonly`, r
 
 Here are other examples of rules:
 - `"*.declaration": { "fontStyle": "bold" }`: // all declarations are bold
-- `"class:java": { "foreground": "#00ff00" "fontStyle": "bold" }` // token of type `class` in `java` files
+- `"class:java": { "foreground": "#00ff00", "fontStyle": "bold" }` // token of type `class` in `java` files
 
 It's also possible to define semantic theming rules in the user settings:
 ```
